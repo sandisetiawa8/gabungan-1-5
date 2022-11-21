@@ -1,0 +1,10 @@
+untuk menambah kondisi baru
+
+if (selisihHari % 30 >= 1) {
+			return `${SelisihMount} month ${selisihHari % 30} days`;
+		}
+
+
+
+
+		https://meet.google.com/xgh-tvry-moj

@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Form || DumbWays.id Batch 42</title>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <nav>
+      <ul>  
+        <li>
+          <a href="index.html"><img src="Assets/image/logo1.png" width="50px" /></a>
+        </li>
+        <li ><a href="index.html">Home</a></li>
+        <li style="width: 300px;" ><a href="index.html">My Project</a></li>
+        <li class="nav-flex">
+          <a href="form.html"><button" class="btn-contact1">Contact Me</button></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Content Start -->
+    <div class="container1">
+          <div class="judul" style="text-align: center;">
+            <h1>GET IN TOUCH</h1>
+          </div>
+
+          <div class="form">
+            <label for="">Name</label>
+            <input type="text" id="name">
+
+            <label for="">Email</label>
+            <input type="email" id="email">
+
+            <label for="">Phone Number</label>
+            <input type="number" id="phone">
+
+            <label for="">Subject</label>
+            <select class="text-input" id="subject" style="padding: 10px; border-radius: 5px;">
+              <option>Frontend</option>
+              <option>Backend</option>
+              <option>Fullstack</option>
+          </select>
+
+            <label for="">Your Message</label>
+            <textarea name="" id="message" cols="10" rows="5"></textarea>
+
+            <button type="button" class="btn-submit" onclick="submitData()">Submit</button>
+          </div>
+    </div>
+    <!-- Content End -->
+
+    <script src="js/form.js"></script>
+  </body>
+</html>
